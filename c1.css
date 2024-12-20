@@ -1,0 +1,26 @@
+#linked{
+    position: absolute;
+    margin: 5px;
+    padding: 5px;
+    top: 2px;
+    right: 4px;
+}
+#text_search{
+    position: absolute;
+    margin: 5px;
+    padding: 5px;
+    top: 50%;
+    right:35%;
+}
+#container{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 4px;
+    margin:9px;
+}
+.c1{
+    padding: 4px;
+    margin-left:30px ;
+}

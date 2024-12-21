@@ -62,5 +62,21 @@ body{
     width: 260px;
 
 }
-
+.adv_search{
+    display:inline-flex;
+    align-items: flex-start;
+    text-align: left;
+    margin: 5px;
+    width: 800px;
+}
+.adv_search label{
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+.adv_search input[type='text']{
+    padding: 5px;
+    width: 200px;
+    border:1px solid red;
+}
 

@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>advance google search</title>
+    <link rel="stylesheet" href="c1.css">
 </head>
 <body>
+    <div id="linked">
+        <a href="index.html">return to index</a>
+    </div>
+    <div>
+    <h1 style="position: absolute; top: 100px;margin-left: 30px;">google advanced search</h1>
+    </div>
     <form action="https://google.com/search">
+        <div class="adv_search">
          <h3>Find pages with...</h3>
-         <div>
-            all these words:<input type="text" name="as_q">
         </div>
-        <div>
-         this exact word or phrase:<input type="text" name="as_epq">
+         <div class="adv_search">
+            <label for="as_q">all these words:</label>
+            <input type="text" name="as_q"><br>
         </div>
-         any of these words:<input type="text" name="as_oq"><br>
-         none of these words:<input type="text" name="as_eq"><br>
-         <input type="submit" value="advance search">
+        <div class="adv_search">
+            <label for="as_epq"> this exact word or phrase:</label>
+            <input type="text" name="as_epq"><br>
+        </div>
+        <div class="adv_search">
+            <label for="as_oq">any of these words:</label>
+            <input type="text" name="as_oq"><br>
+        </div>
+        <div class="adv_search">
+            <label for="as_eq">none of these words:</label>
+            <input type="text" name="as_eq"><br>
+        </div>
+        <div >
+         <input type="submit" value="advance search" style="background-color: blue;color: white;margin-left:300px;height: 0.90cm;width:3cm;border-radius: 10px;">
+        </div>
      </form>
 </body>
 </html>
